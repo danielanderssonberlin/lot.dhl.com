@@ -1,0 +1,412 @@
+/*inherit Delivery font*/
+#onetrust-banner-sdk{
+    font-family: Delivery,Verdana,sans-serif !important;
+}
+#onetrust-pc-sdk .ot-plus-minus span  {
+background-color: #ccc;
+}
+
+#onetrust-consent-sdk {
+    font-family: DeliveryRegular,sans-serif;
+}
+#onetrust-pc-sdk .category-vendors-list-handler, #onetrust-pc-sdk .category-host-list-handler:hover {
+    color: #F91320 !important;
+    margin-left: 0;
+    font-size: .75em;
+    text-decoration: none;
+    float: left;
+}
+
+#onetrust-banner-sdk a {
+    background-color: transparent;
+    color: #D40511 !important;
+    decoration:none !important;
+}
+
+#onetrust-banner-sdk a:hover {
+    background-color: transparent;
+    color: #F91320 !important;
+    decoration:none !important;
+}
+
+
+#onetrust-pc-btn-handler.cookie-setting-link {
+    background-color: transparent;
+    color: #D40511 !important;
+    decoration:none;
+}
+
+#onetrust-pc-btn-handler.cookie-setting-link:hover {
+    background-color: transparent; 
+    color: #F91320 !important;
+    decoration:none;
+}
+
+#onetrust-accept-btn-handler {
+    font-family: Delivery,Verdana,sans-serif !important;
+    color: #ffffff;
+    border: 1px solid #d40511;
+    background-color: #d40511;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 0 0 1.4rem;
+    padding: 0 1.54rem;
+    -webkit-box-align: center;
+    align-items: center;
+    vertical-align: middle;
+    letter-spacing: normal;
+    min-height: 4.2rem;
+    overflow: hidden;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;  
+}
+
+#onetrust-consent-sdk #onetrust-pc-sdk button:hover {
+    background-color: transparent;
+    border-color: transparent;
+    color: #FFFFFF;
+}
+
+#onetrust-pc-sdk .button-theme:hover {
+background-color: #F91320;
+    border-color: #F91320;
+    color: #FFFFFF;
+}
+
+
+#onetrust-consent-sdk #onetrust-pc-sdk .accordion-text, #onetrust-consent-sdk #onetrust-pc-sdk .accordion-text .cookie-subgroup-toggle .ot-switch.toggle {
+    background-color: #333333 !important;
+}
+
+/* Hide 'Allow All' on Host level */
+#onetrust-pc-sdk #select-all-container .ot-checkbox {
+    display: none;
+}
+/* Color Always Active */
+#onetrust-pc-sdk .category-header, #onetrust-pc-sdk .ot-always-active {
+    font-size: .88em;
+    line-height: 1.4;
+    position: relative;
+    top: 5px;
+    color: #d40511;
+    }
+
+/* Color Optin Toggle active */
+#onetrust-pc-sdk .switch-checkbox:checked+.ot-switch-label {
+    transition: all .2s ease-in 0s;
+    -moz-transition: all .2s ease-in 0s;
+    -o-transition: all .2s ease-in 0s;
+    -webkit-transition: all .2s ease-in 0s;
+    border: 1px solid #D40511;
+}
+
+
+/* Color Optin Toggle */
+#onetrust-pc-sdk .switch-checkbox:checked+.ot-switch-label .ot-switch-nob {
+    right: 0px;
+    background-color: #F91320;
+    border-color: #F91320;
+}
+
+#onetrust-pc-sdk .host-option-group .vendor-host {
+    border: none;
+    font-size: .8em;
+    color: #333333 !important;
+    display: inline-block;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f8f8f8;
+}
+
+#onetrust-pc-sdk .ot-pc-footer-logo {
+    display: inline-block;
+    width: calc(100% - 15px);
+    margin-right: 15px;
+    margin-top: 15px;
+    display: none;
+}
+
+#onetrust-pc-sdk .ot-ven-item>button:focus, #onetrust-pc-sdk .ot-host-item>button:focus, #onetrust-pc-sdk .ot-accordion-layout.ot-cat-item>button:focus, #onetrust-pc-sdk .ot-acc-cntr>button:focus,
+#onetrust-consent-sdk #onetrust-pc-sdk *:focus, #onetrust-consent-sdk #onetrust-pc-sdk .ot-vlst-cntr > a:focus {
+outline: none !important;
+}
+
+#onetrust-banner-sdk a:hover, #onetrust-pc-sdk a:hover, #ot-sdk-cookie-policy a:hover {
+color: red !important;
+}
+#ot-sdk-cookie-policy a {
+text-decoration: none;
+}
+
+#onetrust-pc-sdk .category-vendors-list-handler, #onetrust-pc-sdk .category-host-list-handler:hover {
+font-size: .813em !important;
+}
+
+#onetrust-banner-sdk .ot-sdk-button:focus, #onetrust-banner-sdk :not(.ot-leg-btn-container)>button:focus, #onetrust-pc-sdk .ot-sdk-button:focus, #onetrust-pc-sdk :not(.ot-leg-btn-container)>button:focus, #ot-sdk-cookie-policy .ot-sdk-button:focus, #ot-sdk-cookie-policy :not(.ot-leg-btn-container)>button:focus {
+outline: none !important;
+}
+
+
+/* scroll change start */
+@media screen and (max-width: 600px) {
+#onetrust-pc-sdk .ot-pc-footer {
+position: relative;
+border-top: none;
+display: inline-block;
+}
+#onetrust-pc-sdk {
+overflow-y: scroll;
+}
+#onetrust-pc-sdk #ot-pc-content, #onetrust-pc-sdk #ot-pc-lst {
+    position: relative;
+    top: 0;
+    overflow: auto;
+}
+}
+/* scroll change end */
+
+#onetrust-pc-sdk .ot-btn-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+}
+
+#onetrust-consent-sd .ot-btn-container .save-preference-btn-handler {
+    order: 2; 
+}
+
+#accept-recommended-btn-handler{
+    order: 1;
+    margin-left: 0px !important;
+    margin-bottom: 0px !important;
+}
+#onetrust-pc-sdk .ot-btn-container {
+        flex-direction: row-reverse;
+    }
+@media screen and (max-width: 600px) {
+    #onetrust-pc-sdk .ot-btn-container {
+        flex-direction: column-reverse;
+    }
+    #ot-pc-footer {
+        position: absolute !important;    
+    }
+    #onetrust-pc-sdk .ot-btn-container button{
+        width: 100%;
+    }
+    #accept-recommended-btn-handler{
+        margin-left: 0 !important;
+    }
+}
+
+#onaccept-recommended-btn-handler {
+    margin-right: 0 !important;
+}/*inherit Delivery font*/
+#onetrust-banner-sdk{
+    font-family: Delivery,Verdana,sans-serif !important;
+}
+#onetrust-pc-sdk .ot-plus-minus span  {
+background-color: #ccc;
+}
+
+#onetrust-consent-sdk {
+    font-family: DeliveryRegular,sans-serif;
+}
+#onetrust-pc-sdk .category-vendors-list-handler, #onetrust-pc-sdk .category-host-list-handler:hover {
+    color: #F91320 !important;
+    margin-left: 0;
+    font-size: .75em;
+    text-decoration: none;
+    float: left;
+}
+
+#onetrust-banner-sdk a {
+    background-color: transparent;
+    color: #D40511 !important;
+    decoration:none !important;
+}
+
+#onetrust-banner-sdk a:hover {
+    background-color: transparent;
+    color: #F91320 !important;
+    decoration:none !important;
+}
+
+
+#onetrust-pc-btn-handler.cookie-setting-link {
+    background-color: transparent;
+    color: #D40511 !important;
+    decoration:none;
+}
+
+#onetrust-pc-btn-handler.cookie-setting-link:hover {
+    background-color: transparent; 
+    color: #F91320 !important;
+    decoration:none;
+}
+
+#onetrust-accept-btn-handler {
+    font-family: Delivery,Verdana,sans-serif !important;
+    color: #ffffff;
+    border: 1px solid #d40511;
+    background-color: #d40511;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 0 0 1.4rem;
+    padding: 0 1.54rem;
+    -webkit-box-align: center;
+    align-items: center;
+    vertical-align: middle;
+    letter-spacing: normal;
+    min-height: 4.2rem;
+    overflow: hidden;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;  
+}
+
+#onetrust-consent-sdk #onetrust-pc-sdk button:hover {
+    background-color: transparent;
+    border-color: transparent;
+    color: #FFFFFF;
+}
+
+#onetrust-pc-sdk .button-theme:hover {
+background-color: #F91320;
+    border-color: #F91320;
+    color: #FFFFFF;
+}
+
+
+#onetrust-consent-sdk #onetrust-pc-sdk .accordion-text, #onetrust-consent-sdk #onetrust-pc-sdk .accordion-text .cookie-subgroup-toggle .ot-switch.toggle {
+    background-color: #333333 !important;
+}
+
+/* Hide 'Allow All' on Host level */
+#onetrust-pc-sdk #select-all-container .ot-checkbox {
+    display: none;
+}
+/* Color Always Active */
+#onetrust-pc-sdk .category-header, #onetrust-pc-sdk .ot-always-active {
+    font-size: .88em;
+    line-height: 1.4;
+    position: relative;
+    top: 5px;
+    color: #d40511;
+    }
+
+/* Color Optin Toggle active */
+#onetrust-pc-sdk .switch-checkbox:checked+.ot-switch-label {
+    transition: all .2s ease-in 0s;
+    -moz-transition: all .2s ease-in 0s;
+    -o-transition: all .2s ease-in 0s;
+    -webkit-transition: all .2s ease-in 0s;
+    border: 1px solid #D40511;
+}
+
+
+/* Color Optin Toggle */
+#onetrust-pc-sdk .switch-checkbox:checked+.ot-switch-label .ot-switch-nob {
+    right: 0px;
+    background-color: #F91320;
+    border-color: #F91320;
+}
+
+#onetrust-pc-sdk .host-option-group .vendor-host {
+    border: none;
+    font-size: .8em;
+    color: #333333 !important;
+    display: inline-block;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f8f8f8;
+}
+
+#onetrust-pc-sdk .ot-pc-footer-logo {
+    display: inline-block;
+    width: calc(100% - 15px);
+    margin-right: 15px;
+    margin-top: 15px;
+    display: none;
+}
+
+#onetrust-pc-sdk .ot-ven-item>button:focus, #onetrust-pc-sdk .ot-host-item>button:focus, #onetrust-pc-sdk .ot-accordion-layout.ot-cat-item>button:focus, #onetrust-pc-sdk .ot-acc-cntr>button:focus,
+#onetrust-consent-sdk #onetrust-pc-sdk *:focus, #onetrust-consent-sdk #onetrust-pc-sdk .ot-vlst-cntr > a:focus {
+outline: none !important;
+}
+
+#onetrust-banner-sdk a:hover, #onetrust-pc-sdk a:hover, #ot-sdk-cookie-policy a:hover {
+color: red !important;
+}
+#ot-sdk-cookie-policy a {
+text-decoration: none;
+}
+
+#onetrust-pc-sdk .category-vendors-list-handler, #onetrust-pc-sdk .category-host-list-handler:hover {
+font-size: .813em !important;
+}
+
+#onetrust-banner-sdk .ot-sdk-button:focus, #onetrust-banner-sdk :not(.ot-leg-btn-container)>button:focus, #onetrust-pc-sdk .ot-sdk-button:focus, #onetrust-pc-sdk :not(.ot-leg-btn-container)>button:focus, #ot-sdk-cookie-policy .ot-sdk-button:focus, #ot-sdk-cookie-policy :not(.ot-leg-btn-container)>button:focus {
+outline: none !important;
+}
+
+
+/* scroll change start */
+@media screen and (max-width: 600px) {
+#onetrust-pc-sdk .ot-pc-footer {
+position: relative;
+border-top: none;
+display: inline-block;
+}
+#onetrust-pc-sdk {
+overflow-y: scroll;
+}
+#onetrust-pc-sdk #ot-pc-content, #onetrust-pc-sdk #ot-pc-lst {
+    position: relative;
+    top: 0;
+    overflow: auto;
+}
+}
+/* scroll change end */
+
+#onetrust-pc-sdk .ot-btn-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+}
+
+#onetrust-consent-sd .ot-btn-container .save-preference-btn-handler {
+    order: 2; 
+}
+
+#accept-recommended-btn-handler{
+    order: 1;
+    margin-left: 0px !important;
+    margin-bottom: 0px;
+}
+#onetrust-pc-sdk .ot-btn-container {
+        flex-direction: row-reverse;
+    }
+@media screen and (max-width: 600px) {
+    #onetrust-pc-sdk .ot-btn-container {
+        flex-direction: column-reverse;
+    }
+    #onetrust-pc-sdk .ot-btn-container button{
+        width: 100%;
+    }
+    #accept-recommended-btn-handler{
+        margin-left: 0 !important;
+    }
+}
+
+#onaccept-recommended-btn-handler {
+    margin-right: 0 !important;
+}
